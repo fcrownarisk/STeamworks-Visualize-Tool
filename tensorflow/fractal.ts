@@ -209,13 +209,6 @@ function calculateNormals(vertices: number[][], edges: number[]){
   const length = Math.sqrt(normal[0] * normal[0] + normal[0])
   console.log(length)
 }
-import '../fractal/cantorline'
-import '../fractal/HilbertCurve.TS'
-import '../fractal/kochsnowflake'
-import '../fractal/mandelbrotSet'
-import '../fractal/sierpinskitriangle'
-import '../eqaution/S'
-import '../eqaution/T'
 void function CantorLine(){
        this.String = CantorLine.toString
        this.String = CantorLine.toString
@@ -236,4 +229,3 @@ void function sierpinskitriangle(){
        this.scrollBy = sierpinskitriangle
        this.scrollTo = sierpinskitriangle
 }
-
